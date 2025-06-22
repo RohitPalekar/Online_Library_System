@@ -1,0 +1,222 @@
+export const books = [
+  {
+    id: 1,
+    title: "Whispers of the Forest",
+    author: "Lila Greenwood",
+    publishDate: "2019-03-12",
+    pages: 312,
+    coverImage: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80",
+    description: "A mystical journey through ancient woods where secrets and spirits dwell.",
+    category: "fantasy",
+    rating: 4
+  },
+  {
+    id: 2,
+    title: "The Last Ember",
+    author: "Marcus Hale",
+    publishDate: "2021-07-22",
+    pages: 278,
+    coverImage: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
+    description: "A tale of survival and hope in a world where fire is forbidden.",
+    category: "sci-fi",
+    rating: 5
+  },
+  {
+    id: 3,
+    title: "Echoes in the Mist",
+    author: "Sophie Lane",
+    publishDate: "2018-11-05",
+    pages: 350,
+    coverImage: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    description: "A haunting mystery unfolds as a detective chases shadows through fog-laden streets.",
+    category: "mystery",
+    rating: 4
+  },
+  {
+    id: 4,
+    title: "Starlit Promises",
+    author: "Jenna Rivers",
+    publishDate: "2020-02-14",
+    pages: 245,
+    coverImage: "https://images.unsplash.com/photo-1463320898484-cdee8141c787?auto=format&fit=crop&w=400&q=80",
+    description: "A romance that blossoms under the endless expanse of the night sky.",
+    category: "romance",
+    rating: 3
+  },
+  {
+    id: 5,
+    title: "Beneath the Crimson Tide",
+    author: "Oliver Grant",
+    publishDate: "2017-09-09",
+    pages: 410,
+    coverImage: "https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d?auto=format&fit=crop&w=400&q=80",
+    description: "An epic adventure across treacherous seas in search of lost treasure.",
+    category: "adventure",
+    rating: 5
+  },
+  {
+    id: 6,
+    title: "The Clockmaker's Secret",
+    author: "Evelyn Frost",
+    publishDate: "2022-01-18",
+    pages: 320,
+    coverImage: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80",
+    description: "A young apprentice unravels the mysteries hidden within a master clockmaker's workshop.",
+    category: "mystery",
+    rating: 4
+  },
+  {
+    id: 7,
+    title: "Paper Wings",
+    author: "Maya Lin",
+    publishDate: "2015-10-21",
+    pages: 200,
+    coverImage: "https://images.unsplash.com/photo-1468413253725-0d5181091126?auto=format&fit=crop&w=400&q=80",
+    description: "A coming-of-age story about chasing dreams and learning to let go.",
+    category: "fiction",
+    rating: 3
+  },
+  {
+    id: 8,
+    title: "The Forgotten Orchard",
+    author: "Samuel Reed",
+    publishDate: "2014-04-11",
+    pages: 333,
+    coverImage: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    description: "A family returns to their ancestral home, uncovering secrets buried among the apple trees.",
+    category: "fiction",
+    rating: 4
+  },
+  {
+    id: 9,
+    title: "Midnight Sonata",
+    author: "Clara Bell",
+    publishDate: "2023-08-03",
+    pages: 287,
+    coverImage: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=400&q=80",
+    description: "A gifted pianist finds inspiration and love in the most unexpected places.",
+    category: "romance",
+    rating: 5
+  },
+  {
+    id: 10,
+    title: "The Glass Labyrinth",
+    author: "Henry Black",
+    publishDate: "2018-12-19",
+    pages: 384,
+    coverImage: "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=400&q=80",
+    description: "A mind-bending thriller where nothing is as it seems.",
+    category: "mystery",
+    rating: 4
+  },
+  {
+    id: 11,
+    title: "Sunrise Over Atlas",
+    author: "Priya Kapoor",
+    publishDate: "2020-05-27",
+    pages: 299,
+    coverImage: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    description: "An inspiring tale of exploration and discovery across continents.",
+    category: "adventure",
+    rating: 4
+  },
+  {
+    id: 12,
+    title: "Threads of Destiny",
+    author: "Isabella Moreno",
+    publishDate: "2019-06-15",
+    pages: 342,
+    coverImage: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    description: "A sweeping historical drama about love, loss, and the ties that bind.",
+    category: "fiction",
+    rating: 5
+  },
+  {
+    id: 13,
+    title: "The Shadow's Edge",
+    author: "Derek Fox",
+    publishDate: "2021-03-09",
+    pages: 375,
+    coverImage: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80",
+    description: "A suspenseful novel where a detective must confront his own past to solve a chilling case.",
+    category: "mystery",
+    rating: 4
+  },
+  {
+    id: 14,
+    title: "Petals in the Wind",
+    author: "Ava Sinclair",
+    publishDate: "2016-09-17",
+    pages: 230,
+    coverImage: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    description: "A poetic exploration of love and loss, set in a quaint countryside village.",
+    category: "romance",
+    rating: 3
+  },
+  {
+    id: 15,
+    title: "The Infinite Canvas",
+    author: "Julian Park",
+    publishDate: "2018-02-23",
+    pages: 410,
+    coverImage: "https://images.unsplash.com/photo-1463320898484-cdee8141c787?auto=format&fit=crop&w=400&q=80",
+    description: "An artist discovers a magical world hidden within his own paintings.",
+    category: "fantasy",
+    rating: 5
+  },
+  {
+    id: 16,
+    title: "Winter's Veil",
+    author: "Elena Novak",
+    publishDate: "2022-12-01",
+    pages: 298,
+    coverImage: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
+    description: "A chilling story of survival and resilience in a snowbound village.",
+    category: "fiction",
+    rating: 4
+  },
+  {
+    id: 17,
+    title: "A Song for Tomorrow",
+    author: "Emily Chen",
+    publishDate: "2023-04-25",
+    pages: 215,
+    coverImage: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=400&q=80",
+    description: "A heartwarming story about hope, music, and second chances.",
+    category: "fiction",
+    rating: 5
+  },
+  {
+    id: 18,
+    title: "The Quantum Paradox",
+    author: "Neil Robertson",
+    publishDate: "2022-09-14",
+    pages: 356,
+    coverImage: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=400&q=80",
+    description: "Exploring the boundaries of theoretical physics through gripping narrative.",
+    category: "sci-fi",
+    rating: 5
+  },
+  {
+    id: 19,
+    title: "Culinary Chronicles",
+    author: "Maria Gonzalez",
+    publishDate: "2021-05-30",
+    pages: 280,
+    coverImage: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=400&q=80",
+    description: "A journey through world cuisines and the stories behind them.",
+    category: "non-fiction",
+    rating: 4
+  },
+  {
+    id: 20,
+    title: "The Art of Mindfulness",
+    author: "David Chen",
+    publishDate: "2020-11-11",
+    pages: 192,
+    coverImage: "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=400&q=80",
+    description: "Practical techniques for living in the present moment.",
+    category: "non-fiction",
+    rating: 4
+  }
+];
